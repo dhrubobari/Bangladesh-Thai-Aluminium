@@ -1,6 +1,5 @@
 import React from 'react'
 import videoBg from '../../assets/videoBg.mp4'
-import './Banner.css';
 
 export default function Banner() {
   return (
@@ -9,7 +8,7 @@ export default function Banner() {
         <video src={videoBg} autoPlay loop muted />
         <div className="content">
         <h1>Making Life <span className='h1-span'>Safer Everyday</span></h1>
-  </div>
+    </div>
     </div>
   )
 }
