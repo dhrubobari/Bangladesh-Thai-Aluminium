@@ -1,14 +1,12 @@
-import { Routes } from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header/Header';
+import Banner from './Components/Banner/Banner';
+import Slider from './Components/Slider/Slider';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Routes>
-
-      </Routes>
+      <Banner></Banner>
+      <Slider></Slider>
     </div>
   );
 }
