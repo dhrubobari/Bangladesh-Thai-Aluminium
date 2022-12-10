@@ -17,7 +17,7 @@ import { Pagination, Navigation } from "swiper";
 function Slider() {
   return (
     <Swiper
-      slidesPerView={4}
+      slidesPerView={3}
       loop={true}
       loopFillGroupWithBlank={true}
       grabCursor={true}
@@ -35,8 +35,7 @@ function Slider() {
           spaceBetween: 40,
         },
         1024: {
-          slidesPerView: 4,
-          spaceBetween: 50,
+          slidesPerView: 3
         },
       }}
       modules={[Pagination, Navigation]}

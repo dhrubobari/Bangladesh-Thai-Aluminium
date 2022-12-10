@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -8,24 +9,23 @@
   height: 100%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 h3 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   margin-top: 10px;
-  left: 10px;
+  left: 58px;
 }
 
 .swiper-slide {
   margin-top: 30px;
   margin-bottom: 108px;
+  margin-left: 26px;
 }
 
 .swiper-slide img {
-  width: 400px;
-  height: 220px;
-  margin: 0px 8px 0px 6px;
+  width: 376px;
+  height: 212px;
 }
 
 .swiper .swiper-button-prev {
@@ -44,8 +44,8 @@ h3 {
   position: absolute;
   height: 0;
   bottom: 0;
-  margin-left: 8px;
-  width: 400px;
+  margin-left: 59px;
+  width: 376px;
   background-color: #838996;
   transition: 0.5s ease;
 }
