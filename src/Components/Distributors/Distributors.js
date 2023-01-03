@@ -9,7 +9,7 @@ function Distributors() {
     <section className="distributor">
     <div>
       <div>
-        <div className="about-distributors">
+        <div className="distributors">
           <h1>Distributors</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -25,15 +25,6 @@ function Distributors() {
       </div>
       <div>
       <SearchForm />
-      </div>
-      <div className="address">
-        <h2>Our Head Quarter</h2>
-        <h4>BTA Tower (14th Floor), 29 Kemal Ataturk Avenue,<br /> Banani C/A, Road No. 17, Dhaka - 1213.</h4>
-        <h4>24 Hours Sales Contacts:</h4>
-        <h4 className="numbers">+88 01711666143, +88 01711621092, +88 01757607971, +88 01721867378</h4>
-      </div>
-      <div>
-      <Location />  
       </div>      
     </div>
     <div>

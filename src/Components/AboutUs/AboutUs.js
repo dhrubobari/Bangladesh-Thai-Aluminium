@@ -19,7 +19,7 @@ function AboutUs() {
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged it was also
         </p>
-        <p>
+        <p class="text-p2">
           leap into electronic typesetting, remaining essentially unchanged it
           leap into electronic typesetting, remaining essentially unchanged.
           was popularised in the 1960s with the release of Letraset sheets
@@ -35,6 +35,7 @@ function AboutUs() {
         height="340px"
         playing
         light={thumbnail}
+        className="react-player"
       />
       </div>
     </section>

@@ -12,50 +12,55 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Mousewheel, Pagination, Navigation } from "swiper";
 
 function Slider() {
   return (
     <Swiper
-      slidesPerView={3}
-      loop={true}
-      loopFillGroupWithBlank={true}
+      slidesPerView={4}
+      // loop={true}
+      spaceBetween={10}
       grabCursor={true}
-      pagination={{
-        clickable: true,
+      centeredSlides={true}
+      direction={"horizontal"}
+      mousewheel={{
+        forceToAxis: false,
+        sensitivity: 1,
+        releaseOnEdges: true,
       }}
-      navigation={true}
-      breakpoints={{
+        breakpoints={{
         320: {
           slidesPerView: 1,
-          spaceBetween: 10,
+          spaceBetween: 0
         },
         768: {
           slidesPerView: 2,
-          spaceBetween: 40,
+          spaceBetween: 15
         },
         1024: {
-          slidesPerView: 3
+          slidesPerView: 4,
+          spaceBetween: 10
         },
       }}
-      modules={[Pagination, Navigation]}
+      modules={[Mousewheel, Pagination, Navigation]}
     >
-      <SwiperSlide><img src={product1} alt="" class="product-img1" /><h3>MILL FINISHED PROFILES</h3>
-      <div class="overlay-bottom-slide"><div class="info">MILL FINISHED PROFILES</div>
+      <SwiperSlide><img src={product1} alt="" />
+      <div class="overlay-bottom-slide">
+      <div class="info">MILL FINISHED PROFILES</div>
       </div>
       </SwiperSlide>
-      <SwiperSlide><img src={product2} alt="" /><h3>ANODISED PROFILE</h3>
+      <SwiperSlide><img src={product2} alt="" />
       <div class="overlay-bottom-slide"><div class="info">ANODISED PROFILE</div>
       </div>
       </SwiperSlide>
-      <SwiperSlide><img src={product3} alt="" /><h3>POWDER COATED</h3>
+      <SwiperSlide><img src={product3} alt="" />
       <div class="overlay-bottom-slide"><div class="info">POWDER COATED</div>
       </div>
       </SwiperSlide>
-      <SwiperSlide><img src={product4} alt="" /><h3>FABRICATED ITEMS</h3>
+      <SwiperSlide><img src={product4} alt="" />
       <div class="overlay-bottom-slide"><div class="info">FABRICATED ITEMS</div>
       </div>
-      </SwiperSlide>
+      </SwiperSlide>  
     </Swiper>
   );
 }

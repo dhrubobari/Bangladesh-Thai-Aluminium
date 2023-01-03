@@ -19,7 +19,6 @@ p {
 }
 
 .about {
-  position: relative;
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -36,12 +35,43 @@ p {
   margin-top: 25px;
 }
 
-@media only screen and (max-width: 600px){
-	.text {
-    position: absolute;
-    width: 50%;
+@media only screen and (max-width: 600px) {
+  .about {
+    position: static;
+  }
+
+  .text h1 {
+    font-size: 40px;
+    margin-left: 70px;
+  }
+
+  .text p {
+    width: 400px;
+    margin-left: 69px;
+    font-size: 22px;
+  }
+
+  .text-p2 {
+    margin-top: 288px;
+  }
+
+  .text {
+    left: 0;
+    right: 0;
     text-align: justify;
     text-align-last: left;
-    justify-content: center;
+  }
+
+  .player-wrapper {
+    position: absolute;
+    left: auto;
+    right: auto;
+    margin-top: 900px;
+  }
+
+  .react-player {
+    left: auto;
+    right: auto;
+    width: 150px;
   }
 }

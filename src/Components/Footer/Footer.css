@@ -1,0 +1,140 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.footer {
+  height: 217px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: #0b440b;
+  /* background-color: #093309; */
+}
+
+.touch h1{
+  font-size: 24px;
+  color: #FFF;
+  padding-top: 16px;
+}
+
+.touch li{
+  margin-left: 86px;
+}
+
+.mail {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 60px;
+  margin-right: -45px;
+}
+
+.regarding ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 16px;
+}
+
+.regarding h1{
+  color: #FFF;
+  font-size: 20px;
+  padding-top: 16px;
+  padding-right: 82px;
+}
+
+.quickLinks ul {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.quickLinks h1 {
+  color: #FFF;
+  font-size: 20px;
+  padding-top: 16px;
+  padding-right: 88px;
+}
+
+.quickLinks li {
+  margin-bottom: 6px;
+}
+
+.quickLinks li a{
+  color: #FFF;
+}
+
+.regarding li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-right: 196px;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.regarding li a {
+  color: #FFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .quickLinks{
+    margin-left: 30px;
+    padding-top: 20px;
+  }
+
+  .quickLinks h1{
+    font-size: 30px;
+  }
+
+  .touch h1{
+    padding-top: 60px;
+    margin-left: 14px;
+  }
+
+  .touch li{
+    margin: 40px 290px 0px 0px;
+  }
+
+  .regarding{
+    margin-left: 30px;
+    padding-bottom: 50px;
+  }
+
+  .regarding h1{
+    width: 80%;
+    font-size: 30px;
+    padding-right: 232px;
+  }
+
+  address {
+    color: silver;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .touch h1{
+    width: auto;
+    padding-left: 172px;
+  }
+
+  .regarding {
+    width: auto;
+    padding-right: 1px;
+  }
+
+  .quickLinks {
+    width: auto;
+    padding-left: 525px;
+  }
+}
