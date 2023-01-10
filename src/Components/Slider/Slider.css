@@ -81,13 +81,19 @@ h3 {
  -ms-transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 600px){
-  .swiper-slide {
-    position: absolute;
+@media only screen and (max-width: 425px){
+  .swiper-slide img{
+    width: 362px;
+    height: 219px;
   }
 
-  .swiper-slide img{
-    width: 375px;
-    height: 229px;
+  .overlay-bottom-slide {
+    position: absolute;
+    height: 0;
+    bottom: 0;
+    margin-right: 0px;
+    width: 362px;
+    background-color: #838996;
+    transition: 0.5s ease;
   }
 }

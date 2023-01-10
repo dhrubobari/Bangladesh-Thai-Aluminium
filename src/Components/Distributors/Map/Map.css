@@ -1,3 +1,154 @@
-.icon:hover{
-    fill: #2d5a27;
+.countryMap {
+    position: relative;
+    margin: 350px;
+    padding-top: 220px;
+    padding-left: 20px;
+}
+
+#dhaka {
+    position: absolute;
+    margin-top: -234px;
+    margin-left: -136px;
+}
+
+#chittagong {
+    position: absolute;
+    margin-top: -153px;
+    margin-left: 25px;
+}
+
+#mymensingh {
+    position: absolute;
+    margin-top: -350px;
+    margin-left: -92px;
+}
+
+#rajshahi {
+    position: absolute;
+    margin-top: -286px;
+    margin-left: -295px;
+}
+
+#rangpur {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: -292px;
+}
+
+#khulna {
+    position: absolute;
+    margin-top: -135px;
+    margin-left: -229px;
+}
+
+#sylhet {
+    position: absolute;
+    margin-top: -287px;
+    margin-left: 66px;
+}
+
+#barishal {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: -63px;
+}
+
+.divisionD li{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 600;
+    margin-top: -100px;
+    margin-left: -46px;
+}
+
+.divisionR li{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 600;
+    margin-top: -206px;
+    margin-left: -202px;
+}
+
+.divisionC li{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.divisionB li{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-left: -42px;
+}
+
+.divisionS li{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 600;
+    margin-top: -228px;
+    margin-left: 130px;
+}
+
+.divisionK li{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: -155px;
+}
+
+.divisionM2 li{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 600;
+    margin-top: -264px;
+}
+
+.divisionRp2 li{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 600;
+    margin-top: -380px;
+    padding-left: 20px;
+}
+
+.divisionC img {
+    width: 300px;
+    height: 490px;
+}
+
+.divisionK img {
+    width: 186px;
+    height: 370px;
+}
+
+.divisionD img {
+    width: 262px;
+}
+
+.divisionR img {
+    width: 226px;
+    height: 202px;
+}
+
+.divisionB img {
+    width: 130px;
+    height: 180px;
+}
+
+.divisionS img {
+    width: 200px;
+    height: 169px;
 }

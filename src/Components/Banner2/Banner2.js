@@ -62,14 +62,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-              <div class="dropdown">
-              <button class="dropAnchor">About Us</button>
-              <div class="dropdown-content">
-                <a href="#">Corporate profile</a>
-                <a href="#">Operations</a>
-                <a href="#">Our leadership</a>
-              </div>
-            </div>
+                About Us
               </Link>
             </li>
             <li className="nav-item">

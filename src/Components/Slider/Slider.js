@@ -29,9 +29,10 @@ function Slider() {
         releaseOnEdges: true,
       }}
         breakpoints={{
-        320: {
+        375: {
           slidesPerView: 1,
-          spaceBetween: 0
+          spaceBetween: 0,
+          pagination: true
         },
         768: {
           slidesPerView: 2,

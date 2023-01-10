@@ -6,7 +6,6 @@
 form {
   width: 530px;
   height: 38px;
-  margin-left: 171px;
   margin-bottom: 46px;
   margin-top: 34px;
   background: #314b2a;
@@ -25,10 +24,15 @@ input {
 }
 
 .search {
+  width: 67px;
   cursor: pointer;
   color: white;
   font-size: 16px;
+  margin-right: 8px;
   font-family: 'Oxygen', sans-serif;
   background: #314B2A;
-  padding: 0;
+}
+
+.numbers {
+  margin-bottom: 22px;
 }

@@ -10,6 +10,7 @@
   height: 217px;
   display: flex;
   /* align-items: center; */
+  margin-top: -98.9px;
   justify-content: space-between;
   background-color: #0b440b;
   /* background-color: #093309; */
@@ -22,15 +23,36 @@
 }
 
 .touch li{
-  margin-left: 86px;
+  margin-left: 127.7px;
+}
+
+.btalApp {
+  color: #FFF;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-right: -21.6px;
+  line-height: 17.68px;
+}
+
+.btalApp img{
+  width: 31px;
+  height: 31px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 16px;
+}
+
+.GPS-logo {
+  margin-top: -40px;
+  margin-left: 155px;
 }
 
 .mail {
   color: #FFF;
   font-size: 14px;
   font-weight: 200;
-  margin-top: 60px;
-  margin-right: -45px;
+  margin-top: 20px;
+  margin-right: -3px;
 }
 
 .regarding ul {
@@ -72,7 +94,7 @@
 .regarding li {
   font-size: 14px;
   margin-bottom: 5px;
-  margin-right: 196px;
+  margin-right: 262px;
   text-align: justify;
   text-align-last: left;
 }

@@ -4,7 +4,7 @@ import Banner from "./Components/Banner/Banner";
 import Banner2 from "./Components/Banner2/Banner2";
 import Distributors from "./Components/Distributors/Distributors";
 import Footer from "./Components/Footer/Footer";
-import Portfolio from "./Components/Portfolio/Portfolio";
+import Holdings from "./Components/Portfolio/Holdings";
 import Slider from "./Components/Slider/Slider";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Slider />
       <AboutUs />
       <Distributors />
-      <Portfolio />
+      <Holdings />
       <Footer />
     </div>
   );

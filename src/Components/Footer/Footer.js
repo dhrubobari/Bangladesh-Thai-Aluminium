@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faYoutube, faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube, faFacebook, faWhatsapp, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import playStore from "../../assets/footer/play-store-logo.svg";
 import React from 'react'
 import "../Footer/Footer.css"
 
@@ -12,8 +13,11 @@ function Footer() {
                 <a href="#"><FontAwesomeIcon icon={faYoutube} style={{color: '#FFF', marginRight: '5px'}} /></a>
                 <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color: '#FFF', marginRight: '5px'}} /></a>
                 <a href="#"><FontAwesomeIcon icon={faWhatsapp} style={{color: '#FFF', marginLeft: '0px'}} /></a>
+                <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color: '#FFF', marginLeft: '5px'}} /></a>
+                <a href="#"><FontAwesomeIcon icon={faInstagram} style={{color: '#FFF', marginLeft: '5px'}} /></a>
             </li>
             <li class="mail">info@btaalu.com</li>
+            <li class="btalApp">Download Our App<div class="GPS-logo"><img src={playStore} alt="" /></div></li>
         </div>
 
         <div class="quickLinks">
@@ -40,9 +44,6 @@ function Footer() {
                 </li>
                 <li>
                     <a href="#">Legal and Terms</a>
-                </li>
-                <li>
-                    <address style={{color: 'silver'}}>29 Kemal Ataturk Ave, Dhaka 1212</address>
                 </li>
             </ul>
         </div>
