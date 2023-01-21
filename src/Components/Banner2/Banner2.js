@@ -1,4 +1,4 @@
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import { Link, NavLink, Route, Routes } from 'react-router-dom';
@@ -47,11 +47,11 @@ function NavBar() {
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
-
       <nav className="navbar" onClick={e => e.stopPropagation()}>
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
             <img src={logo} alt="" class="logo" />
+            <div class="content"><h1>Making Life <span class="content-span"></span>Safer Everyday</h1></div>
           </Link>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
@@ -119,21 +119,16 @@ function NavBar() {
               >
                 Opportunity
               </Link>
-            </li>
-
-            
+            </li>          
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={click ? faTimes : faBars} />
           </div>
         </div>
+        
       </nav>
-      <video src={videoBg} autoPlay loop muted></video>
+      <video src={videoBg} autoPlay loop muted></video>     
       <div className="overlay"></div>
-      <div>
-        <h1></h1>
-      </div>
-
     </ div>
   );
 }

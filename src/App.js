@@ -1,6 +1,5 @@
 import "./App.css";
 import AboutUs from "./Components/AboutUs/AboutUs";
-import Banner from "./Components/Banner/Banner";
 import Banner2 from "./Components/Banner2/Banner2";
 import Distributors from "./Components/Distributors/Distributors";
 import Footer from "./Components/Footer/Footer";
