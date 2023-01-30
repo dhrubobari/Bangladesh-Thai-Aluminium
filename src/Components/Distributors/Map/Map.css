@@ -152,3 +152,7 @@
     width: 200px;
     height: 169px;
 }
+
+@media only screen and (max-width: 600px){
+
+}

@@ -36,3 +36,26 @@ input {
 .numbers {
   margin-bottom: 22px;
 }
+
+@media only screen and (max-width: 600px){
+  form {
+    width: 373px;
+    position: absolute;
+    margin-top: -84px;
+    margin-left: 650px;
+  }
+
+  .address {
+    margin-left: 660px;
+    margin-top: 220px;
+  }
+
+  .map-wrapper {
+    margin-right: -656px;
+  }
+
+  .map-wrapper iframe {
+    width: 376px;
+    height: 233px;
+  }
+}

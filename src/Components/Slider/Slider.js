@@ -14,12 +14,13 @@ import "swiper/css/navigation";
 // import required modules
 import { Mousewheel, Pagination, Navigation } from "swiper";
 
-function Slider() {
+function Slider({ forwardedRef }) {
   return (
+    <div ref={forwardedRef}>
     <Swiper
       slidesPerView={4}
       // loop={true}
-      spaceBetween={10}
+      
       grabCursor={true}
       centeredSlides={true}
       direction={"horizontal"}
@@ -30,39 +31,31 @@ function Slider() {
       }}
         breakpoints={{
         375: {
-          slidesPerView: 1,
-          spaceBetween: 0,
-          pagination: true
+          slidesPerView: 1
         },
         768: {
           slidesPerView: 2,
-          spaceBetween: 15
         },
         1024: {
-          slidesPerView: 4,
-          spaceBetween: 10
+          slidesPerView: 4
         },
       }}
       modules={[Mousewheel, Pagination, Navigation]}
     >
       <SwiperSlide><img src={product1} alt="" />
-      <div class="overlay-bottom-slide">
-      <div class="info">MILL FINISHED PROFILES</div>
-      </div>
+      
       </SwiperSlide>
       <SwiperSlide><img src={product2} alt="" />
-      <div class="overlay-bottom-slide"><div class="info">ANODISED PROFILE</div>
-      </div>
+      
       </SwiperSlide>
       <SwiperSlide><img src={product3} alt="" />
-      <div class="overlay-bottom-slide"><div class="info">POWDER COATED</div>
-      </div>
+      
       </SwiperSlide>
       <SwiperSlide><img src={product4} alt="" />
-      <div class="overlay-bottom-slide"><div class="info">FABRICATED ITEMS</div>
-      </div>
+      
       </SwiperSlide>  
     </Swiper>
+    </div>
   );
 }
 

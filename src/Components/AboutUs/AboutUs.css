@@ -21,7 +21,7 @@ p {
 .about {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: -530px;
   margin-bottom: 93px;
 }
 
@@ -31,8 +31,8 @@ p {
   text-align-last: left;
 }
 
-.player-wrapper {
-  margin-top: 25px;
+.iframe-container {
+  padding-top: 27px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -41,18 +41,22 @@ p {
   }
 
   .text h1 {
-    font-size: 40px;
+    font-size: 28px;
     margin-left: 70px;
   }
 
   .text p {
-    width: 400px;
+    width: 360px;
     margin-left: 69px;
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .text-p2 {
-    margin-top: 288px;
+    margin-top: 110px;
+  }
+
+  .text {
+    margin-top: -60px;
   }
 
   .text {
@@ -62,16 +66,13 @@ p {
     text-align-last: left;
   }
 
-  .player-wrapper {
+  .iframe-container {
     position: absolute;
-    left: auto;
-    right: auto;
-    margin-top: 900px;
+    padding-top: 600px;
   }
 
-  .react-player {
-    left: auto;
-    right: auto;
-    width: 150px;
+  .iframe-container iframe {
+    width: 375px;
+    height: 250px;
   }
 }

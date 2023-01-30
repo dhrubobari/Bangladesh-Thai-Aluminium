@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Banner2 />
-      <Slider />
+      
       <AboutUs />
       <Distributors />
       <Holdings />

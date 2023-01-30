@@ -7,7 +7,8 @@
 }
 
 .footer {
-  height: 217px;
+  height: 100%;
+  width: 100%;
   display: flex;
   /* align-items: center; */
   margin-top: -98.9px;
@@ -17,13 +18,16 @@
 }
 
 .touch h1{
-  font-size: 24px;
-  color: #FFF;
+  font-size: 21px;
   padding-top: 16px;
+  color: #FFF;
+  margin-right: 20px;
+  min-width: 300px;
 }
 
 .touch li{
-  margin-left: 127.7px;
+  width: auto;
+  padding-left: 120.5px;
 }
 
 .btalApp {
@@ -64,7 +68,7 @@
 
 .regarding h1{
   color: #FFF;
-  font-size: 20px;
+  font-size: 19px;
   padding-top: 16px;
   padding-right: 82px;
 }
@@ -78,13 +82,13 @@
 
 .quickLinks h1 {
   color: #FFF;
-  font-size: 20px;
+  font-size: 19px;
   padding-top: 16px;
   padding-right: 88px;
 }
 
 .quickLinks li {
-  margin-bottom: 6px;
+  width: 100%;
 }
 
 .quickLinks li a{
@@ -92,6 +96,7 @@
 }
 
 .regarding li {
+  width: 100%;
   font-size: 14px;
   margin-bottom: 5px;
   margin-right: 262px;
@@ -106,7 +111,7 @@
 @media only screen and (max-width: 600px) {
   .footer {
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
 
@@ -119,13 +124,19 @@
     font-size: 30px;
   }
 
+  .touch {
+    width: 100%;
+  }
+
   .touch h1{
+    font-size: 30px;
     padding-top: 60px;
-    margin-left: 14px;
+    padding-right: 61.4px;
   }
 
   .touch li{
-    margin: 40px 290px 0px 0px;
+    width: auto;
+    margin: 40px 0px 0px -40px;
   }
 
   .regarding{

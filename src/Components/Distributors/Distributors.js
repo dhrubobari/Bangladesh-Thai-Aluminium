@@ -1,6 +1,5 @@
 import React from "react";
 import "../Distributors/Distributors.css";
-import Location from "./Location/Location";
 import Map from "./Map/Map";
 import SearchForm from "./SearchForm/SearchForm";
 

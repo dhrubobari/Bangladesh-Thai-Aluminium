@@ -28,15 +28,8 @@ function AboutUs() {
           versions of lorem ipsum
         </p>
       </div>
-      <div className="player-wrapper">
-      <ReactPlayer
-        url="https://www.youtube.com/watch?v=HyeIrAgrrNY&t=1s"
-        width="593px"
-        height="340px"
-        playing
-        light={thumbnail}
-        className="react-player"
-      />
+      <div className="iframe-container">
+      <iframe width="593" height="340" src="https://www.youtube.com/embed/HyeIrAgrrNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </section>
   );

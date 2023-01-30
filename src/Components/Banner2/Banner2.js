@@ -1,10 +1,12 @@
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useRef, useState } from 'react'
 import React from 'react'
-import { Link, NavLink, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import "../Banner2/Banner2.css";
 import logo from "../../assets/banner/logo.png";
-import videoBg from "../../assets/banner/720.mp4"
+import videoBg from "../../assets/banner/720.mp4";
+import Slider from '../Slider/Slider';
 
 //Pages
 const Home = () => {
@@ -39,39 +41,49 @@ const Contact = () => {
 
 
 function NavBar() {
-  const [click, setClick] = React.useState(false);
+  const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
 
+  // scroll to section
+  const sliders = useRef(null);
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: 'smooth',
+    })
+  }
   return (
+    <div>
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={e => e.stopPropagation()}>
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
-            <img src={logo} alt="" class="logo" />
+            <div class="logo"><img src={logo} alt=""/></div>
             <div class="content"><h1>Making Life <span class="content-span"></span>Safer Everyday</h1></div>
           </Link>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
                 exact
-                to="/"
+                to="/about"
                 activeClassName="active"
                 className="nav-links"
-                onClick={click ? handleClick : null}
               >
                 About Us
               </Link>
             </li>
+            
             <li className="nav-item">
               <Link
                 exact
-                to="/about"
+                to="/"
                 activeClassName="active"
                 className="nav-links"
-                onClick={click ? handleClick : null}
+                onClick={() => scrollToSection(sliders)}
               >
                 Products
               </Link>
@@ -79,7 +91,7 @@ function NavBar() {
             <li className="nav-item">
               <Link
                 exact
-                to="/blog"
+                to="/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
@@ -90,7 +102,7 @@ function NavBar() {
             <li className="nav-item">
               <Link
                 exact
-                to="/contact"
+                to="/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
@@ -101,7 +113,7 @@ function NavBar() {
             <li className="nav-item">
               <Link
                 exact
-                to="/contact"
+                to="/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
@@ -124,12 +136,15 @@ function NavBar() {
           <div className="nav-icon" onClick={handleClick}>
             <FontAwesomeIcon icon={click ? faTimes : faBars} />
           </div>
-        </div>
-        
+        </div>        
       </nav>
       <video src={videoBg} autoPlay loop muted></video>     
       <div className="overlay"></div>
     </ div>
+    <div className="slider">
+      <Slider forwardedRef={sliders}/>
+    </div>
+    </div>
   );
 }
 
@@ -137,9 +152,9 @@ function Banner2() {
 
   return (
     <>
-      <NavBar />
+      <NavBar />  
 
-      <div className="pages">
+      <div className="pages">      
         <Routes>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />

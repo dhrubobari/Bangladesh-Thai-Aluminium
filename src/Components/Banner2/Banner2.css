@@ -36,10 +36,13 @@
   background: #111;
 }
 
+.logo {
+  width: 440px;
+  margin-top: 3px;
+}
+
 .nav-logo {
-  align-items: center;
   margin-top: -10px;
-  margin-right: 419px;
   cursor: pointer;
   flex-grow: 1;
 }
@@ -122,6 +125,10 @@ video {
   margin-left: 90px;
 }
 
+.slider {
+  margin-top: 688px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -138,27 +145,34 @@ video {
   }
 
   .pages {
+    width: auto;
     margin-top: 550px;
   }
 
   .content {
-    position: relative;
+
     margin-top: -90px;
     margin-right: 209.9px;
   }
 
   .content h1{
     color: #f8f8f8;
+    font-size: 50px;
+    line-height: 60px;
     text-shadow: 0px 2px 3px grey;
     -webkit-background-clip: text;
     background-clip: text;
+  }
+
+  .nav-logo {
+    margin-right: 25.8rem;
   }
 
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-top: 1pxsolid #fff;
+    border-top: 1px solid #fff;
     position: absolute;
     top: 80px;
     left: -110%;
@@ -185,6 +199,7 @@ video {
   }
 
   .nav-logo img {
+    position: static;
     width: 111px;
     height: 45px;
   }

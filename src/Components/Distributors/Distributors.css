@@ -58,3 +58,21 @@ h4 {
   text-align: justify;
   text-align-last: left;
 }
+
+@media only screen and (max-width: 600px){
+  .distributor {
+    position: static;
+    margin-top: 455.4px;
+  }
+
+  .distributors h1 {
+    font-size: 28px;
+    margin-left:655px;
+  }
+
+  .distributors p {
+    width: 360px;
+    font-size: 16px;
+    margin-left: 656px;
+  }
+}
