@@ -3,9 +3,9 @@ import "../AboutUs/AboutUs.css";
 import ReactPlayer from "react-player";
 import thumbnail from '../../assets/about-us/thumbnail.png';
 
-function AboutUs() {
+function AboutUs({ forwardedRef }) {
   return (
-    <section className="about">
+    <section className="about" ref={forwardedRef}>
       <div className="text">
         <h1>About Us</h1>
         <p>

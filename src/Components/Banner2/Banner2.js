@@ -7,6 +7,8 @@ import "../Banner2/Banner2.css";
 import logo from "../../assets/banner/logo.png";
 import videoBg from "../../assets/banner/720.mp4";
 import Slider from '../Slider/Slider';
+import AboutUs from '../AboutUs/AboutUs';
+import Holdings from "../Portfolio/Holdings";
 
 //Pages
 const Home = () => {
@@ -48,6 +50,8 @@ function NavBar() {
 
   // scroll to section
   const sliders = useRef(null);
+  const aboutUs = useRef(null);
+  const holdings = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -72,6 +76,7 @@ function NavBar() {
                 to="/about"
                 activeClassName="active"
                 className="nav-links"
+                onClick={() => scrollToSection(aboutUs)}
               >
                 About Us
               </Link>
@@ -105,7 +110,7 @@ function NavBar() {
                 to="/"
                 activeClassName="active"
                 className="nav-links"
-                onClick={click ? handleClick : null}
+                onClick={() => scrollToSection(holdings)}
               >
                 Holdings
               </Link>
@@ -143,6 +148,12 @@ function NavBar() {
     </ div>
     <div className="slider">
       <Slider forwardedRef={sliders}/>
+    </div>
+    <div className="aboutUs">
+      <AboutUs forwardedRef={aboutUs}/>
+    </div>
+    <div className="holdings">
+      <Holdings forwardedRef={holdings}/>
     </div>
     </div>
   );

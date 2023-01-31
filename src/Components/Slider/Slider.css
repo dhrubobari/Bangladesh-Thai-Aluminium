@@ -18,7 +18,7 @@ h3 {
 }
 
 .swiper-slide {
-  max-width: 317px;
+  max-width: 315px;
   /* Center slide text horizontally */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -93,7 +93,7 @@ h3 {
 
   .swiper-slide {
     max-width: 414px;
-    margin-top: 44.7%;
+    margin-top: 20%;
   }
 
   /* .overlay-bottom-slide {

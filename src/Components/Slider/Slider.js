@@ -16,11 +16,10 @@ import { Mousewheel, Pagination, Navigation } from "swiper";
 
 function Slider({ forwardedRef }) {
   return (
-    <div ref={forwardedRef}>
     <Swiper
+      ref={forwardedRef}
       slidesPerView={4}
-      // loop={true}
-      
+      // loop={true} 
       grabCursor={true}
       centeredSlides={true}
       direction={"horizontal"}
@@ -55,7 +54,6 @@ function Slider({ forwardedRef }) {
       
       </SwiperSlide>  
     </Swiper>
-    </div>
   );
 }
 

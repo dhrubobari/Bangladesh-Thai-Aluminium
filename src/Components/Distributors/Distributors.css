@@ -38,6 +38,7 @@ h4 {
   display: flex;
   justify-content: center;
   margin-left: 62.7px;
+  margin-top: -2478px;
 }
 
 .numbers {
@@ -62,7 +63,7 @@ h4 {
 @media only screen and (max-width: 600px){
   .distributor {
     position: static;
-    margin-top: 455.4px;
+    margin-top: -220rem;
   }
 
   .distributors h1 {

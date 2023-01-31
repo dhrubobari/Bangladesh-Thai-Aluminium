@@ -11,7 +11,7 @@
   width: 100%;
   display: flex;
   /* align-items: center; */
-  margin-top: -98.9px;
+  margin-top: 892px;
   justify-content: space-between;
   background-color: #0b440b;
   /* background-color: #093309; */
@@ -113,6 +113,7 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
+    margin-top: 1800px;
   }
 
   .quickLinks{
@@ -145,7 +146,7 @@
   }
 
   .regarding h1{
-    width: 80%;
+    width: 361px;
     font-size: 30px;
     padding-right: 232px;
   }
