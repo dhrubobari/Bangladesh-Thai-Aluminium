@@ -155,29 +155,159 @@
 
 @media only screen and (max-width: 600px){
     .countryMap {
-        position: static;
-        margin-left: -200px;
+        position: absolute;
+        margin-top: 652px;
+        margin-left: -130px;
+    }
+
+    .divisionB img {
+        width: 87px;
+        height: 130px;
     }
 
     .divisionD img {
+        width: 159px;
+        height: 168px;
+    }
+
+    .divisionM img {
+        width: 159px;
+        height: 158px;
+    }
+
+    .divisionC img {
+        width: 180px;
+        height: 309px;
+    }
+
+    .divisionK img {
+        width: 124px;
+        height: 260px;
+    }
+
+    .divisionR img {
+        width: 121px;
+        height: 120px;
+    }
+
+    .divisionRp img {
+        width: 124px;
+        height: 156px;
+    }
+
+    .divisionS img {
         width: 120px;
         height: 120px;
     }
 
+    .divisionC li {
+        color: white;
+        font-weight: 400;
+        font-size: 11.6px;
+        margin-top: 462.7px;
+        margin-left: 48px;
+    }
+
     .divisionD li {
         color: white;
-        font-weight: 200;
-        margin-top: 350px;
-        margin-left: -105px;
+        font-weight: 400;
+        font-size: 12.4px;
+        margin-top: 370px;
+        margin-left: -80px;
     }
 
     .divisionM2 li {
-        color: black;
-        margin-top: -100px;
+        color: white;
+        margin-top: 274px;
+    }
+
+    .divisionR li {
+        color: white;
+        margin-top: 310px;
+        margin-left: -185px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .divisionB li {
+        color: white;
+        font-weight: 400;
+        font-size: 12.4px;
+        margin-top: 500px;
+        margin-left: -80px;
+    }
+
+    .divisionRp2 li {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 202px;
+    }
+
+    .divisionK li {
+        color: white;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 477px;
+        margin-left: -136px;
+    }
+
+    .divisionS li {
+        color: white;
+        font-size: 12.2px;
+        font-weight: 400;
+        margin-top: 279px;
+        margin-left: 28px;
     }
 
     #dhaka {
         position: absolute;
-        margin-top: 300px;
+        margin-top: 299px;
     } 
+
+    #mymensingh {
+        position: absolute;
+        margin-top: 213px;
+        margin-left: -118px;
+    }
+
+    #chittagong {
+        position: absolute;
+        margin-top: 342px;
+        margin-left: -38px;
+    }
+
+    #khulna {
+        position: absolute;
+        margin-top: 358px;
+        margin-left: -185px;
+    }
+
+    #rajshahi {
+        position: absolute;
+        margin-top: 265px;
+        margin-left: -217px;
+    }
+
+    #rangpur {
+        position: absolute;
+        margin-top: 127px;
+        margin-left: -220px;
+    }
+
+    #barishal {
+        position: absolute;
+        margin-top: 443px;
+        margin-left: -94px;
+    }
+
+    #sylhet {
+        position: absolute;
+        margin-top: 246px;
+        margin-left: -10.9px;
+    }
+
+    .map-wrapper {
+        
+    }
 }

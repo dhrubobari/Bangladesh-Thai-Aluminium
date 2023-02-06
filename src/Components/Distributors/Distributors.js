@@ -9,7 +9,7 @@ function Distributors() {
     <div>
       <div>
         <div className="distributors">
-          <h1>Distributors</h1>
+          <h1 style={{fontWeight: '500'}}>Distributors</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

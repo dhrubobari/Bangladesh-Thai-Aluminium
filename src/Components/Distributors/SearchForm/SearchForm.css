@@ -42,16 +42,27 @@ input {
     width: 373px;
     position: absolute;
     margin-top: -84px;
-    margin-left: 650px;
+    margin-left: 14.1rem;
   }
 
   .address {
-    margin-left: 660px;
+    /* width: 400px; */
     margin-top: 220px;
+    margin-left: 260px;
+  }
+
+  .address h2 {
+    width: 230px;
+  }
+
+  .address h4 {
+    width: 300px;
   }
 
   .map-wrapper {
-    margin-right: -656px;
+    position: absolute;
+    width: 340px;
+    margin-left: 14rem;
   }
 
   .map-wrapper iframe {

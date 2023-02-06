@@ -72,19 +72,9 @@
   line-height: 19px;
 }
 
-.fa-code {
-  color: #f5b921;
-  margin-left: 1rem;
-}
-
 .nav-item {
   line-height: 40px;
   margin-right: 1rem;
-}
-
-.nav-item.active {
-  color: #ffdd40;
-  border: 1px solid #ffdd40;
 }
 
 .nav-icon {
@@ -148,10 +138,6 @@ video {
 }
 
 @media only screen and (max-width: 1280px){
-  .pages {
-    width: auto;
-    
-  }
 
   .content {
     margin-top: -90px;
@@ -178,6 +164,7 @@ video {
     flex-direction: column;
     width: 100%;
     border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     position: absolute;
     top: 100px;
     left: -110%;
@@ -191,6 +178,7 @@ video {
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    
   }
 
   .nav-item .active {
@@ -229,6 +217,6 @@ video {
   }
 
   .holdings {
-    margin-top: 1430px;
+    margin-top: 2200px;
   }
 }

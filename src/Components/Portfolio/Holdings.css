@@ -11,8 +11,9 @@ img {
 }
 
 .heading h1 {
-    margin-right: 1033px;
+    margin-right: 1057px;
     font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
 }
 
 .container {
@@ -20,32 +21,13 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 43px 111px 0px;
+    margin: 0px 20px 111px 0px;
 }
 
 .container .box {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-}
-
-.tower2 { margin-top: 12.2px; }
-
-.tower3 {
-    width: 226px;
-    height: 231.3px;
-}
-
-.tower4 {
-    width: 226px;
-    height: 214.2px;
-    margin-top: 11.9px;
-}
-
-.tower5 {
-    width: 227px;
-    height: 152.3px;
-    margin-top: 12px;
 }
 
 .tower7 { margin-top: 12px; }
@@ -69,37 +51,99 @@ img {
 .tower11 {
     width: 231px;
     height: 271.4px;
+    margin-top: 12.2px;
 }
 
-.tower11 { margin-top: 12.2px; }
+.column1 { width: 229px; overflow: hidden; }
 
-.column1 { width: 229px; }
+.tower1 { transition: 0.3s; }
+
+.tower1:hover { transform: scale(1.1); }
+
+.tower2 { margin-top: 12.2px; transition: 0.3s; }
+
+.tower2:hover { transform: scale(1.1); }
 
 .column2 {
-    width: 211px;
-    margin: 0;
+    width: 227px;
     margin-left: 16px;
+    overflow: hidden;
 }
 
-.column3 { width: 211px; margin-left: 31px; }
+.tower3 {
+    width: 226px;
+    height: 231.3px;
+    margin-right: 0px;
+    transition: 0.3s; }
 
-.column4 { width: 202.6px; margin-left: 33px;}
+.tower3:hover { transform: scale(1.1); }
 
-.column5 { width: 212px; margin-left: 52px; }
+.tower4 {
+    width: 226px;
+    height: 214.2px;
+    margin-top: 11.9px;
+    transition: 0.3s;
+}
+
+.tower4:hover { transform: scale(1.1); }
+
+.tower5 {
+    width: 227px;
+    height: 152.3px;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+.tower5:hover { transform: scale(1.1); }
+
+.column3 { width: 226px; margin-left: 16px; overflow: hidden; }
+
+.tower6 { transition: 0.3s; }
+
+.tower6:hover { transform: scale(1.1); }
+
+.tower7 { transition: 0.3s; }
+
+.tower7:hover { transform: scale(1.1); }
+
+.column4 { width: 237.8px; margin-left: 16px; overflow: hidden; }
+
+.tower8 { transition: 0.3s; }
+
+.tower8:hover { transform: scale(1.1); }
+
+.tower9 { transition: 0.3s; }
+
+.tower9:hover { transform: scale(1.1); }
+
+.column5 { width: 229px; margin-left: 16px; overflow: hidden; }
+
+.tower10 { transition: 0.3s; }
+
+.tower10:hover { transform: scale(1.1); }
+
+.tower11 { transition: 0.3s; }
+
+.tower11:hover { transform: scale(1.1); }
 
 .copyright {
     width: 100%;
-    display: block;
     color: #314B2A;
     font-size: 14px;
     font-weight: 700;
     font-family: 'Oxygen', sans-serif;
     margin-top: 69px;
-    margin-right: 924.7px;
+    margin-right: 936.6px;
 }
 
 @media only screen and (max-width: 767px){
+    .container {
+        position: static;
+        margin-top: -200px;
+    }
+
     .container .box {
+        width: 375px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -109,7 +153,7 @@ img {
     }
 
     .heading h1 {
-        font-size: 28px;
+        font-size: 26px;
         margin-left: -17px;
         margin-bottom: -11px;
     }
@@ -132,17 +176,31 @@ img {
 
     .tower9 { width: 182.8px; margin-top: 1px; }
 
-    .tower10 { width: 184.5px; height: 280px; }
+    .tower10 { width: 184.5px; height: 280px; margin-left: 1.4px; }
 
-    .tower11 { width: 184.5px; height: 223px; margin-top: 0.9px; }
+    .tower11 { width: 183px; height: 280px; margin-top: 0.3px; margin-left: 2.9px; }
 
     .column1 { margin-left: -21px; }
 
-    .column2 { margin-left: -36.6px; }
+    .column2 { width: 184px; margin-left: -186px; }
 
-    .column3 { margin-left: -13px; }
+    .column3 { margin-left: -19px; }
 
-    .column4 { margin-left: -32.9px; }
+    .column4 { width: 184px; margin-left: -187px; }
 
-    .column5 { margin-left: -5.8%; }
+    .column5 {
+        width: 375px;
+        display: flex;
+        margin-left: -0.1px;
+    }
+
+    .copyright {
+        font-size: 15px;
+        font-weight: 700;
+        width: 100%;
+        color: #314B2A;
+        font-family: 'Oxygen', sans-serif;
+        margin-top: 70px;
+        margin-left: 59.3rem;
+    }
 }

@@ -73,7 +73,7 @@ function NavBar() {
             <li className="nav-item">
               <Link
                 exact
-                to="/about"
+                to="/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={() => scrollToSection(aboutUs)}
@@ -129,7 +129,7 @@ function NavBar() {
             <li className="nav-item">
               <Link
                 exact
-                to="/contact"
+                to="/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}

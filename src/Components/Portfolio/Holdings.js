@@ -16,7 +16,7 @@ function Portfolio({ forwardedRef }) {
   return (
     <section ref={forwardedRef} class="container">
       <div class="heading">
-        <h1>Holdings</h1>
+        <h1 style={{fontWeight: '500'}}>Holdings</h1>
       </div>
 
       <div class="box">

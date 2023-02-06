@@ -41,17 +41,14 @@ function Slider({ forwardedRef }) {
       }}
       modules={[Mousewheel, Pagination, Navigation]}
     >
-      <SwiperSlide><img src={product1} alt="" />
-      
+      <SwiperSlide><img src={product1} alt="" /><h3>MILL FINISHED PROFILES</h3>
       </SwiperSlide>
-      <SwiperSlide><img src={product2} alt="" />
-      
+      <SwiperSlide><img src={product2} alt="" /><h3>ANODISED PROFILE</h3>
       </SwiperSlide>
-      <SwiperSlide><img src={product3} alt="" />
-      
+      <SwiperSlide><img src={product3} alt="" /><h3>POWDER COATED</h3>
+      {/* <div className="overlay-bottom-slide"><div class="info">POWDER COATED</div></div> */}
       </SwiperSlide>
-      <SwiperSlide><img src={product4} alt="" />
-      
+      <SwiperSlide><img src={product4} alt="" /><h3>FABRICATED ITEMS</h3>
       </SwiperSlide>  
     </Swiper>
   );

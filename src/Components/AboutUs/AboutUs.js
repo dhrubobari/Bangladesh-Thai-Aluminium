@@ -7,7 +7,7 @@ function AboutUs({ forwardedRef }) {
   return (
     <section className="about" ref={forwardedRef}>
       <div className="text">
-        <h1>About Us</h1>
+        <h1 style={{fontWeight: '500'}}>About Us</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
