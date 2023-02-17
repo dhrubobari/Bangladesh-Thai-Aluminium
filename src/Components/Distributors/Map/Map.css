@@ -237,6 +237,13 @@
     .divisionD img {
         width: 159px;
         height: 168px;
+        transition: all 500ms;
+    }
+
+    .divisionD li:hover {
+        color: white;
+        font-size: 15px;
+        font-size-adjust: 17px;
     }
 
     .divisionM img {
@@ -252,11 +259,25 @@
     .divisionK img {
         width: 124px;
         height: 260px;
+        transition: all 500ms;
+    }
+
+    .divisionK li:hover {
+        color: white;
+        font-size: 15px;
+        font-size-adjust: 17px;
     }
 
     .divisionR img {
         width: 121px;
         height: 120px;
+        transition: all 500ms;
+    }
+
+    .divisionR li:hover {
+        color: white;
+        font-size: 15px;
+        font-size-adjust: 17px;
     }
 
     .divisionRp img {
@@ -267,14 +288,22 @@
     .divisionS img {
         width: 120px;
         height: 120px;
+        transition: all 500ms;
     }
 
     .divisionC li {
         color: white;
         font-weight: 400;
         font-size: 11.6px;
+        transition: all 500ms;
         margin-top: 462.7px;
         margin-left: 48px;
+    }
+
+    .divisionC li:hover {
+        color: white;
+        font-size: 14px;
+        font-size-adjust: 16px;
     }
 
     .divisionD li {
@@ -302,8 +331,15 @@
         color: white;
         font-weight: 400;
         font-size: 12.4px;
+        transition: all 500ms;
         margin-top: 500px;
         margin-left: -80px;
+    }
+
+    .divisionB li:hover {
+        color: white;
+        font-size: 14px;
+        font-size-adjust: 16px;
     }
 
     .divisionRp2 li {
@@ -327,6 +363,12 @@
         font-weight: 400;
         margin-top: 279px;
         margin-left: 28px;
+    }
+
+    .divisionS li:hover {
+        color: white;
+        font-size: 15px;
+        font-size-adjust: 17px;
     }
 
     #dhaka {
