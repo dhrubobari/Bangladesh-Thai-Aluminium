@@ -19,7 +19,6 @@ h3 {
 }
 
 .swiper-slide {
-  position: relative;
   max-width: 315px;
   /* Center slide text horizontally */
   display: -webkit-box;
@@ -100,7 +99,11 @@ h3 {
     margin-top: 26px;
   }
 
-  .swiper-slide h3 {
-    margin-left: 92px;
-  }
+  .swiper-slide .product1 { margin-left: 19px; }
+
+  .swiper-slide .product2 { margin-left: 19px; }
+
+  .swiper-slide .product3 { margin-left: 19px; }
+
+  .swiper-slide .product4 { margin-left: 19px; }
 }

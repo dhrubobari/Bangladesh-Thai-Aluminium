@@ -127,19 +127,20 @@ img {
 .tower11:hover { transform: scale(1.1); }
 
 .copyright {
-    width: 100%;
+    width: 276px;
     color: #314B2A;
     font-size: 14px;
     font-weight: 700;
     font-family: 'Oxygen', sans-serif;
-    margin-top: 69px;
-    margin-right: 936.6px;
+    margin-top: 65px;
+    margin-left: -58.5rem;
 }
 
 @media only screen and (max-width: 767px){
     .container {
         position: static;
         margin-top: -200px;
+        margin-left: -19.9px;
     }
 
     .container .box {
@@ -152,9 +153,13 @@ img {
         width: 100%;
     }
 
+    .heading {
+        max-width: 127px;
+    }
+
     .heading h1 {
-        font-size: 26px;
-        margin-left: -17px;
+        font-size: 25px;
+        margin-left: -137px;
         margin-bottom: -11px;
     }
 
@@ -168,7 +173,7 @@ img {
 
     .tower5 { width: 184.4px; height: 118.2px; margin-top: 1px; }
 
-    .tower6 { width: 184px; height: 269px; }
+    .tower6 { width: 183px; height: 269px; }
 
     .tower7 { width: 184px; height: 269px; margin-top: 1px; }
 
@@ -176,31 +181,31 @@ img {
 
     .tower9 { width: 182.8px; margin-top: 1px; }
 
-    .tower10 { width: 184.5px; height: 280px; margin-left: 1.4px; }
+    .tower10 { width: 184.5px; height: 280px; margin-left: 6px; }
 
-    .tower11 { width: 183px; height: 280px; margin-top: 0.3px; margin-left: 2.9px; }
+    .tower11 { width: 183px; height: 280px; margin-top: 0.3px; margin-left: 2px; }
 
-    .column1 { margin-left: -21px; }
+    .column1 { width: 183px; margin-left: 22.4px; }
 
-    .column2 { width: 184px; margin-left: -186px; }
+    .column2 { width: 184px; margin-left: -182px; }
 
-    .column3 { margin-left: -19px; }
+    .column3 { width: 183px; margin-left: 22.4px; }
 
-    .column4 { width: 184px; margin-left: -187px; }
+    .column4 { width: 184px; margin-left: -183px; }
 
     .column5 {
         width: 375px;
         display: flex;
-        margin-left: -0.1px;
+        overflow: hidden;
     }
 
     .copyright {
         font-size: 15px;
         font-weight: 700;
-        width: 100%;
+        width: 365px;
         color: #314B2A;
         font-family: 'Oxygen', sans-serif;
         margin-top: 70px;
-        margin-left: 59.3rem;
+        margin-left: 2.6rem;
     }
 }

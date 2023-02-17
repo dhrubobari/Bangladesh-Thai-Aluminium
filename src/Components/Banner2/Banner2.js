@@ -67,7 +67,7 @@ function NavBar() {
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
             <div class="logo"><img src={logo} alt=""/></div>
-            <div class="content"><h1>Making Life <span class="content-span"></span>Safer Everyday</h1></div>
+            <div class="content"><h1>Making Life <span class="content-span">Safer Everyday</span></h1></div>
           </Link>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">

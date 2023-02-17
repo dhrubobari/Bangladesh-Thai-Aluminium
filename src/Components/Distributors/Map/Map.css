@@ -1,8 +1,8 @@
 .countryMap {
     position: relative;
-    margin: 350px;
-    padding-top: 220px;
-    padding-left: 20px;
+    
+    padding-top: 530px;
+    padding-left: 364px;
 }
 
 #dhaka {
@@ -12,6 +12,7 @@
 }
 
 #chittagong {
+    margin: 0px;
     position: absolute;
     margin-top: -153px;
     margin-left: 25px;
@@ -53,11 +54,74 @@
     margin-left: -63px;
 }
 
+#dhaka:hover { filter: invert(9%) brightness(90%) contrast(120%); }
+
+#mymensingh:hover { filter: invert(7%) brightness(110%) contrast(125%); }
+
+#rajshahi:hover { filter: invert(10%) brightness(118%) contrast(140%); }
+
+#khulna:hover { filter: invert(11%) brightness(88%) contrast(130%); }
+
+#sylhet:hover { filter: invert(11%) brightness(113%) contrast(125%); }
+
+#rangpur:hover { filter: invert(9%)  brightness(133%) contrast(144%); }
+
+#barishal:hover { filter: invert(10%) brightness(74%) contrast(100%); }
+
+#chittagong:hover { filter: invert(10%) brightness(70%) contrast(105%); }
+
+.divisionD img{ transition: 0.5s all ease-in-out; }
+
+.divisionM img { transition: 0.5s all ease-in-out; }
+
+.divisionR img { transition: 0.5s all ease-in-out; }
+
+.divisionK img { transition: 0.5s all ease-in-out; }
+
+.divisionS img { transition: 0.5s all ease-in-out; }
+
+.divisionRp img { transition: 0.5s all ease-in-out; }
+
+.divisionB img { transition: 0.5s all ease-in-out; }
+
+.divisionC img { transition: 0.5s all ease-in-out; }
+
+.divisionD li:hover {
+    font-size: 18px;
+    font-size-adjust: 20px;
+}
+
+.divisionR li:hover {
+    font-size: 18px;
+    font-size-adjust: 20px;
+}
+
+.divisionK li:hover {
+    font-size: 18px;
+    font-size-adjust: 20px;
+}
+
+.divisionS li:hover {
+    font-size: 18px;
+    font-size-adjust: 20px;
+}
+
+.divisionB li:hover {
+    font-size: 18px;
+    font-size-adjust: 20px;
+}
+
+.divisionC li:hover {
+    font-size: 18px;
+    font-size-adjust: 20px;
+}
+
 .divisionD li{
     color: white;
     cursor: pointer;
     position: absolute;
     font-weight: 600;
+    transition: all 500ms;
     margin-top: -100px;
     margin-left: -46px;
 }
@@ -67,6 +131,7 @@
     cursor: pointer;
     position: absolute;
     font-weight: 600;
+    transition: all 500ms;
     margin-top: -206px;
     margin-left: -202px;
 }
@@ -76,6 +141,7 @@
     cursor: pointer;
     position: absolute;
     font-weight: 600;
+    transition: all 500ms;
     margin-top: 50px;
     margin-left: 180px;
 }
@@ -85,6 +151,7 @@
     cursor: pointer;
     position: absolute;
     font-weight: 600;
+    transition: all 500ms;
     margin-top: 120px;
     margin-left: -42px;
 }
@@ -94,6 +161,7 @@
     cursor: pointer;
     position: absolute;
     font-weight: 600;
+    transition: all 500ms;
     margin-top: -228px;
     margin-left: 130px;
 }
@@ -103,6 +171,7 @@
     cursor: pointer;
     position: absolute;
     font-weight: 600;
+    transition: all 500ms;
     margin-top: 25px;
     margin-left: -155px;
 }
@@ -156,8 +225,8 @@
 @media only screen and (max-width: 600px){
     .countryMap {
         position: absolute;
-        margin-top: 652px;
-        margin-left: -130px;
+        margin-top: 360px;
+        margin-left: -472px;
     }
 
     .divisionB img {
@@ -305,9 +374,5 @@
         position: absolute;
         margin-top: 246px;
         margin-left: -10.9px;
-    }
-
-    .map-wrapper {
-        
     }
 }

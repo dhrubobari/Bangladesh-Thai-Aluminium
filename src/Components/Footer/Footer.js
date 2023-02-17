@@ -8,8 +8,9 @@ function Footer() {
   return (
     <footer class="footer">
         <div class="touch">
-            <h1 style={{marginLeft: '-4.8px'}}>Get In Touch</h1>
-            <li class="icons">
+            <h1>Get In Touch</h1>
+        <div className="social">
+        <li class="icons">
                 <a href="https://www.youtube.com/watch?v=HyeIrAgrrNY&t=0s" target="blank"><FontAwesomeIcon icon={faYoutube} style={{color: '#FFF', marginRight: '5px'}} /></a>
                 <a href="https://www.facebook.com/profile.php?id=100063911860927" target="blank"><FontAwesomeIcon icon={faFacebook} style={{color: '#FFF', marginRight: '5px'}} /></a>
                 <a><FontAwesomeIcon icon={faWhatsapp} style={{color: '#FFF', marginLeft: '0px'}} /></a>
@@ -18,6 +19,7 @@ function Footer() {
             </li>
             <li class="mail">info@btaalu.com</li>
             <li class="btalApp">Download Our App<div class="GPS-logo"><a href="https://play.google.com/store/apps/details?id=com.ets.salesassistant.user.btal&hl=en&gl=US&pli=1" target="blank"><img src={playStore} alt="" /></a></div></li>
+        </div>
         </div>
 
         <div class="quickLinks">

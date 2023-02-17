@@ -37,7 +37,7 @@ h4 {
 .distributor {
   display: flex;
   justify-content: center;
-  margin-left: 62.7px;
+  margin-right: 295px;
   margin-top: -2468.2px;
 }
 
@@ -65,7 +65,7 @@ h4 {
     position: static;
     margin-top: -238.9rem;
     margin-bottom: 0px;
-    margin-left: -264px;
+    margin-right: 264px;
   }
 
   .distributors {
@@ -74,8 +74,8 @@ h4 {
   }
 
   .distributors h1 {
-    font-size: 26px;
-    margin-top: -60px;
+    font-size: 25px;
+    margin-top: -24px;
     margin-right: 0px;
     margin-left: 165.4px;
   }

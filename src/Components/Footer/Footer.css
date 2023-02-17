@@ -11,7 +11,7 @@
   width: 100%;
   display: flex;
   /* align-items: center; */
-  margin-top: 892px;
+  margin-top: 942px;
   justify-content: space-between;
   background-color: #0b440b;
   /* background-color: #093309; */
@@ -77,6 +77,11 @@
   padding-right: 82px;
 }
 
+.quickLinks {
+  width: 284px;
+  margin-right: 28px;
+}
+
 .quickLinks ul {
   font-size: 14px;
   margin-bottom: 5px;
@@ -101,11 +106,19 @@
   color: #FFF;
 }
 
+.regarding {
+  margin-right: 170px;
+}
+
+.regarding-link {
+  width: 248px;
+}
+
 .regarding li {
-  width: 100%;
+  width: 150px;
   font-size: 14px;
   margin-bottom: 5px;
-  margin-right: 262px;
+  
   text-align: justify;
   text-align-last: left;
 }
@@ -119,7 +132,7 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    margin-top: 2490px;
+    margin-top: 2452px;
   }
 
   .quickLinks{
@@ -132,33 +145,37 @@
   }
 
   .touch {
-    width: 370;
+    margin-top: 60px;
+    margin-left: -59px;
   }
 
   .touch h1{
-    font-size: 22px;
-    padding-top: 60px;
-    padding-right: 118.6px;
+    font-size: 22.6px;
+    
   }
 
-  .touch li{
-    width: auto;
-    margin: 40px 0px 0px -130px;
+  .touch .social {
+    width: 340px;
+    margin-left: -34.4px;
   }
 
   .touch .icons {
-    margin-top: 50px;
-    margin-right: 12.7rem;
+    width: 230px;
   }
 
-  .touch .mail {
-    margin-top: 16px;
-    margin-right: 12.4rem;
+  .touch .social .mail {
+    margin-top: 10px;
+    margin-left: -108.7px;
   }
 
-  .touch .btalApp {
-    margin-top: 16px;
-    margin-right: 11.4rem; 
+  .touch .social .btalApp {
+    width: 290px;
+    margin-top: 10px;
+    margin-left: -18.8px;
+  }
+
+  .touch .social .btalApp img{
+    margin-left: -4px;
   }
 
   .regarding{
