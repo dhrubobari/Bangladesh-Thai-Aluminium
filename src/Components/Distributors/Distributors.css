@@ -3,43 +3,36 @@
   padding: 0;
 }
 
-h1 {
+/* h1 {
   font-family: 'Oxygen', sans-serif;
   width: 172px;
   height: 80px;
   font-size: 40px;
   line-height: 51px;
-}
+} */
 
-p {
+/* p {
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
   width: 587px;
   height: 184px;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
-h2 {
+/* h2 {
   font-family: 'Oxygen', sans-serif;
   font-size: 24px;
   font-weight: 700;
   text-align: left;
-}
+} */
 
-h4 {
+/* h4 {
   font-size: 16px;
   font-weight: 600;
   margin-top: 24px;
   margin-left: 1px;
   text-align: left;
-}
-
-.distributor {
-  display: flex;
-  justify-content: center;
-  margin-right: 295px;
-  margin-top: -2468.2px;
-}
+} */
 
 .numbers {
   font-size: 16px;
@@ -55,10 +48,7 @@ h4 {
  
 }
 
-.distributors {
-  text-align: justify;
-  text-align-last: left;
-}
+
 
 @media only screen and (max-width: 600px){
   .distributor {

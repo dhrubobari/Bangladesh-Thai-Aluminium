@@ -144,17 +144,8 @@ function NavBar() {
         </div>        
       </nav>
       <video src={videoBg} autoPlay loop muted></video>     
-      <div className="overlay"></div>
     </ div>
-    <div className="slider">
-      <Slider forwardedRef={sliders}/>
-    </div>
-    <div className="aboutUs">
-      <AboutUs forwardedRef={aboutUs}/>
-    </div>
-    <div className="holdings">
-      <Holdings forwardedRef={holdings}/>
-    </div>
+    
     </div>
   );
 }

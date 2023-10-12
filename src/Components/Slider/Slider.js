@@ -14,15 +14,25 @@ import "swiper/css/navigation";
 // import required modules
 import { Mousewheel, Pagination, Navigation } from "swiper";
 
-function Slider({ forwardedRef }) {
+function Slider() {
   return (
-    <Swiper
-      ref={forwardedRef}
-      slidesPerView={4}
-      // loop={true} 
+    <div className="slider_container">
+    <div className="our_products has-text-centered">
+    <h1 className="is-size-3">Our products</h1>
+    <h2>Thai Aluminum Products</h2>
+    </div>
+      <Swiper
+      watchSlidesProgress={true}
+      slidesPerView={3}
+      spaceBetween={3}
+      className="mySwiper"
+      loop={false} 
+      navigation={true}
       grabCursor={true}
-      centeredSlides={true}
       direction={"horizontal"}
+      pagination={{
+        clickable: true,
+      }}
       mousewheel={{
         forceToAxis: false,
         sensitivity: 1,
@@ -36,21 +46,19 @@ function Slider({ forwardedRef }) {
           slidesPerView: 2,
         },
         1024: {
-          slidesPerView: 4
+          slidesPerView: 3
         },
-      }}
+      }
+      }
       modules={[Mousewheel, Pagination, Navigation]}
-    >
-      <SwiperSlide><img src={product1} alt="" /><h3 class="product1">MILL FINISHED PROFILES</h3>
-      </SwiperSlide>
-      <SwiperSlide><img src={product2} alt="" /><h3 class="product2">ANODISED PROFILE</h3>
-      </SwiperSlide>
-      <SwiperSlide><img src={product3} alt="" /><h3 class="product3">POWDER COATED</h3>
-      {/* <div className="overlay-bottom-slide"><div class="info">POWDER COATED</div></div> */}
-      </SwiperSlide>
-      <SwiperSlide><img src={product4} alt="" /><h3 class="product4">FABRICATED ITEMS</h3>
-      </SwiperSlide>  
-    </Swiper>
+      >
+        <SwiperSlide><img src={product1} alt=""/></SwiperSlide>
+        <SwiperSlide><img src={product2} alt=""/></SwiperSlide>
+        <SwiperSlide><img src={product3} alt=""/></SwiperSlide>
+        <SwiperSlide><img src={product4} alt=""/></SwiperSlide>
+        <SwiperSlide><img src={product2} alt=""/></SwiperSlide>
+      </Swiper> 
+      </div>
   );
 }
 

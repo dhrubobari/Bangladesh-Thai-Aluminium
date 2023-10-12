@@ -12,13 +12,9 @@ import tower9 from "../../assets/portfolio/Rectangle 13.png";
 import tower10 from "../../assets/portfolio/Rectangle 9.png";
 import tower11 from "../../assets/portfolio/Rectangle 15.png";
 
-function Portfolio({ forwardedRef }) {
+function Portfolio() {
   return (
-    <section ref={forwardedRef} class="container">
-      <div class="heading">
-        <h1 style={{fontWeight: '500'}}>Holdings</h1>
-      </div>
-
+    <section class="holdings_container">
       <div class="box">
         <div class="column1">
           <img src={tower1} class="tower1"></img>
@@ -46,7 +42,7 @@ function Portfolio({ forwardedRef }) {
           <img src={tower11} class="tower11"></img>
         </div>
       </div>
-      <li class="copyright">Bangladesh Thai Aluminium © 2012 - 2023</li>
+      <p class="copyright">Bangladesh Thai Aluminium © 2012 - 2023</p>
     </section>
   )
 }

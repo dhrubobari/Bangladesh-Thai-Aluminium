@@ -1,37 +1,39 @@
 import React from "react";
-import "../AboutUs/AboutUs.css";
+import "bulma/css/bulma.min.css";
 import ReactPlayer from "react-player";
-import thumbnail from '../../assets/about-us/thumbnail.png';
+import youtubeThumbnail from "../../assets/about-us/thumbnail.png";
 
-function AboutUs({ forwardedRef }) {
+function AboutUs() {
   return (
-    <section className="about" ref={forwardedRef}>
-      <div className="text">
-        <h1 style={{fontWeight: '500'}}>About Us</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum. only five centuries, but also the
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged it was also
-        </p>
-        <p class="text-p2">
-          leap into electronic typesetting, remaining essentially unchanged it
-          leap into electronic typesetting, remaining essentially unchanged.
-          was popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like PageMaker including lorem ipsum popularised in the 1960s with
-          versions of lorem ipsum
-        </p>
+    <div className="hero-body">
+      <div className="columns is-mobile">
+        {/* Left Side - Content */}
+        <div className="column is-12-mobile is-6-desktop">
+          <h1 className="title">About Us</h1>
+          <p>
+            Our aluminum company is dedicated to crafting high-quality aluminum
+            products that excel in durability and performance. With years of
+            expertise, we offer innovative solutions to meet your specific
+            needs, ensuring excellence in every metal we shape.
+          </p>
+          <br />
+          <p>
+            At our aluminum company, sustainability is at the core of
+            everything we do. We are committed to eco-friendly practices
+            throughout our production process, delivering aluminum solutions
+            that not only meet your needs but also contribute to a greener, more
+            sustainable future.
+          </p>
+        </div>
+
+        {/* Right Side - Video */}
+        <div className="column is-12-mobile is-6-desktop">
+          <div className="video-container">
+            <ReactPlayer url='https://www.youtube.com/embed/HyeIrAgrrNY' width="100%" height="315" poster={youtubeThumbnail} light={true} playing controls />
+          </div>
+        </div>
       </div>
-      <div className="iframe-container">
-      <iframe width="593" height="340" src="https://www.youtube.com/embed/HyeIrAgrrNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-    </section>
+    </div>
   );
 }
 
