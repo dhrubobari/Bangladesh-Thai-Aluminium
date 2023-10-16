@@ -6,14 +6,15 @@ import Slider from "./Components/Slider/Slider";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Distributors from "./Components/Distributors/Distributors";
 import Holdings from "./Components/Portfolio/Holdings";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <>
       <div className="hero is-fullheight banner">
         {/* Banner Overlay */}
         <video src={videoBg} autoPlay muted loop />
-        <div className="overlay"></div>
+        <div className="overlay "></div>
         <div></div>
         <div className="hero-head">
           <nav className="navbar p-3">
@@ -54,7 +55,7 @@ function App() {
           <div className="container">
             {/* Banner Content */}
             <h1 className="title">
-              Making Life Safer <br /> Everyday!
+              Making Life Safer <br /> Everyday
             </h1>
           </div>
         </div>
@@ -63,7 +64,8 @@ function App() {
       <AboutUs />
       <Distributors />
       <Holdings />
-    </div>
+      <Footer />
+    </>
   );
 }
 

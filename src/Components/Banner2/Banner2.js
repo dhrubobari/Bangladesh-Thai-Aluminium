@@ -48,11 +48,6 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
 
-  // scroll to section
-  const sliders = useRef(null);
-  const aboutUs = useRef(null);
-  const holdings = useRef(null);
-
   const scrollToSection = (elementRef) => {
     window.scrollTo({
       top: elementRef.current.offsetTop,
@@ -64,7 +59,7 @@ function NavBar() {
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={e => e.stopPropagation()}>
-        <div className="nav-container">
+        <div>
           <Link exact to="/" className="nav-logo">
             <div class="logo"><img src={logo} alt=""/></div>
             <div class="content"><h1>Making Life <span class="content-span">Safer Everyday</span></h1></div>

@@ -7,35 +7,31 @@
   box-sizing: border-box;
 }
 
-.pages {
-  margin-top: 689px;
-}
-
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   position: sticky;
   z-index: 1;
-}
+} */
 
-.nav-container {
+/* .nav-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 130px;
   margin-right: 55px;
-}
+} */
 
-.main-container {
+/* .main-container {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: #111;
-}
+} */
 
 .logo {
   width: 440px;
@@ -55,12 +51,12 @@
   top: 60px;
 }
 
-.nav-menu {
+/* .nav-menu {
   display: flex;
   list-style: none;
   text-align: center;
   margin-right: 2rem;
-}
+} */
 
 .nav-links {
   color: white;
@@ -74,10 +70,10 @@
   line-height: 19px;
 }
 
-.nav-item {
+/* .nav-item {
   line-height: 40px;
   margin-right: 1rem;
-}
+} */
 
 .nav-icon {
   display: none;
@@ -97,134 +93,4 @@
   text-shadow: 0px 2px 3px silver;
   -webkit-background-clip: text;
   background-clip: text;
-}
-
-.content {
-  margin-left: 56.4px;
-}
-
-.content-span {
-  margin-left: 90px;
-}
-
-.slider {
-  margin-top: 689.2px;
-}
-
-.aboutUs {
-  margin-top: 675px;
-}
-
-.holdings {
-  margin-top: 1026px;
-}
-
-
-
-@media only screen and (max-width: 1280px){
-  .content {
-    margin-top: 120px;
-    margin-left: 101px;
-  }
-
-  .content h1{
-    color: #f8f8f8;
-    font-size: 44px;
-    font-weight: 400;
-    line-height: 60px;
-    width: 360px;
-    text-shadow: 0px 2px 3px grey;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
-  .content-span {
-    margin-left: 60px;
-  }
-
-  .navbar {
-    background: #fafdec;
-    height: 75px;
-  }
-
-  .nav-logo {
-    margin-right: 25.8rem;
-  }
-
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    /* border-top: 1px solid #fff; */
-    border-bottom: 1px solid #fff;
-    position: absolute;
-    top: 74.8px;
-    left: -110%;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
-
-  .nav-menu.active {
-    /* background: #20B2AA; */
-    background: #0e8f51;
-    left: 0px;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
-    
-  }
-
-  .nav-item {
-    width: 100%;
-    height: 82px;
-    border: 1px groove white;
-  }
-
-  .nav-item .active {
-    color: #fff;
-    border: none;
-  }
-
-  .nav-logo {
-    margin-top: 120px;
-    margin-left: 270px;
-  }
-
-  .nav-logo img {
-    position: static;
-    width: 112px;
-    height: 44.8px;
-    filter: invert(40%) sepia(50%) saturate(1000%) hue-rotate(81deg) brightness(60%) contrast(100%);
-  }
-
-  .nav-links {
-    width: 100%;
-    font-size: 13.2px;
-    font-weight: 400;
-    margin-top: 32px;
-    display: table;
-  }
-
-  .nav-icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    margin-top: -10px;
-    margin-right: 10px;
-    transform: translate(-100%, 60%);
-    border: 1px solid #0e8f51;
-    border-radius: 3px;
-    box-shadow: 0px;
-    padding: 3px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: 17px;
-    cursor: pointer;
-    color: #fff;
-    background-color: #0e8f51;
-  }
-
-  .holdings {
-    margin-top: 2200px;
-  }
 }

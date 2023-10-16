@@ -1,5 +1,11 @@
-html, body {
+html {
+  max-width: 100%;
   min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .container h1 {
@@ -29,38 +35,17 @@ html, body {
 
 .navbar-menu .navbar-end a {
   color: white;
+  cursor: pointer;
+  font-family: "Oxygen", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.navbar-menu .navbar-end a:hover {
+  background: transparent;
 }
 
 .logo-item {
   width: 110px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

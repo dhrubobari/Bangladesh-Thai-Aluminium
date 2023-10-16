@@ -3,128 +3,24 @@
   padding: 0%;
   list-style: none;
   text-decoration: none;
-  box-sizing: border-box;
 }
 
 .footer {
   height: 218px;
   width: 100%;
   display: flex;
-  /* align-items: center; */
-  margin-top: 942px;
   justify-content: space-between;
   background-color: #0b440b;
   /* background-color: #093309; */
 }
 
 .touch {
-  margin-left: 6px;
+  min-width: 725px;
 }
 
-.touch h1{
+.touch h3{
   font-size: 24px;
-  padding-top: 16px;
-  color: #FFF;
-  margin-right: 2.7px;
-  min-width: 315px;
-}
-
-.touch li{
-  width: auto;
-  padding-left: 120.5px;
-}
-
-.btalApp {
-  color: #FFF;
-  font-size: 14px;
-  margin-top: 16px;
-  margin-right: -21.6px;
-  line-height: 17.68px;
-}
-
-.btalApp img{
-  width: 31px;
-  height: 31px;
-  cursor: pointer;
-  margin-left: 5px;
-  margin-top: 16px;
-}
-
-.GPS-logo {
-  margin-top: -40px;
-  margin-left: 155px;
-}
-
-.mail {
-  color: #FFF;
-  font-size: 14px;
-  font-weight: 200;
-  margin-top: 20px;
-  margin-right: -3px;
-}
-
-.regarding ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-bottom: 16px;
-}
-
-.regarding h1{
-  color: #FFF;
-  font-size: 19px;
-  padding-top: 16px;
-  padding-right: 82px;
-}
-
-.quickLinks {
-  width: 284px;
-  margin-right: 28px;
-}
-
-.quickLinks ul {
-  font-size: 14px;
-  margin-bottom: 5px;
-  text-align: justify;
-  text-align-last: left;
-}
-
-.quickLinks h1 {
-  color: #FFF;
-  font-size: 19px;
-  padding-top: 16px;
-  padding-right: 88px;
-}
-
-.quickLinks li {
-  width: 100%;
-  margin-bottom: 4px;
-  
-}
-
-.quickLinks li a{
-  color: #FFF;
-}
-
-.regarding {
-  margin-right: 170px;
-}
-
-.regarding-link {
-  width: 248px;
-}
-
-.regarding li {
-  width: 150px;
-  font-size: 14px;
-  margin-bottom: 5px;
-  
-  text-align: justify;
-  text-align-last: left;
-}
-
-.regarding li a {
-  color: #FFF;
+  margin-bottom: 14px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -142,11 +38,6 @@
 
   .quickLinks h1{
     font-size: 19px;
-  }
-
-  .touch {
-    margin-top: 60px;
-    margin-left: -59px;
   }
 
   .touch h1{

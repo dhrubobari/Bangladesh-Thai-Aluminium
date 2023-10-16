@@ -7,7 +7,9 @@ function AboutUs() {
   return (
     <div className="hero-body">
       <div className="columns is-mobile">
-        {/* Left Side - Content */}
+
+        {/* Content */}
+        
         <div className="column is-12-mobile is-6-desktop">
           <h1 className="title">About Us</h1>
           <p>
@@ -18,18 +20,23 @@ function AboutUs() {
           </p>
           <br />
           <p>
-            At our aluminum company, sustainability is at the core of
-            everything we do. We are committed to eco-friendly practices
-            throughout our production process, delivering aluminum solutions
-            that not only meet your needs but also contribute to a greener, more
-            sustainable future.
+            At our aluminum company, sustainability is at the core of everything
+            we do. We are committed to eco-friendly practices throughout our
+            production process, delivering aluminum solutions that not only meet
+            your needs but also contribute to a greener, more sustainable
+            future.
           </p>
         </div>
-
-        {/* Right Side - Video */}
+        
         <div className="column is-12-mobile is-6-desktop">
-          <div className="video-container">
-            <ReactPlayer url='https://www.youtube.com/embed/HyeIrAgrrNY' width="100%" height="315" poster={youtubeThumbnail} light={true} playing controls />
+          <div className="video_container">
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=HyeIrAgrrNY&t=1s"
+              width="100%"
+              height="315px"
+              playing
+              light={youtubeThumbnail}
+            />
           </div>
         </div>
       </div>

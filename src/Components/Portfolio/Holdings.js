@@ -15,6 +15,7 @@ import tower11 from "../../assets/portfolio/Rectangle 15.png";
 function Portfolio() {
   return (
     <section class="holdings_container">
+      <h1 className='title mt-5'>Our Projects</h1>
       <div class="box">
         <div class="column1">
           <img src={tower1} class="tower1"></img>
@@ -42,7 +43,7 @@ function Portfolio() {
           <img src={tower11} class="tower11"></img>
         </div>
       </div>
-      <p class="copyright">Bangladesh Thai Aluminium © 2012 - 2023</p>
+      <p class="copyright mb-3">Bangladesh Thai Aluminium © 2012 - 2023</p>
     </section>
   )
 }
